@@ -4,18 +4,18 @@
 Retrieve data from CityBikes, Foursquare and Yelp APIs. Combine all the data together,  build a model and analyze the result to find out the relations between the number of bikes and the number of bars or restaurants (POI). 
 
 ## Process
-### Connecting to CityBikes API
-#### Send a request to retrieve all available bike stations in a particular city, Hamilton in this project
-#### Parse the Json object into a Pandas dataframe
-### Connecting to Foursquare API
-#### Retrieve all restaurants near the selected location
-### Connecting to Yelp API
-#### Retrieve all restaurants near the selected location
-### Compare the quality of the YELP and Foursquare API
-### Joining data from the above to create a dataframe
-#### Use data visualization to explore the data
-#### Create my own SQLite database and store the data collected on the POIs
-### Building a regression model using Python's statsmodels module that demonstrates a relationship between the number of bikes in a particular location and the characteristics of the POIs in that location
+1. Connecting to CityBikes API
+* Send a request to retrieve all available bike stations in a particular city, Hamilton in this project
+* Parse the Json object into a Pandas dataframe
+2. Connecting to Foursquare API
+* Retrieve all restaurants near the selected location
+* Connecting to Yelp API
+* Retrieve all restaurants near the selected location
+* Compare the quality of the YELP and Foursquare API
+3. Joining data from the above to create a dataframe
+* Use data visualization to explore the data
+* Create my own SQLite database and store the data collected on the POIs
+4. Building a regression model using Python's statsmodels module that demonstrates a relationship between the number of bikes in a particular location and the characteristics of the POIs in that location
 
 
 ## Results
